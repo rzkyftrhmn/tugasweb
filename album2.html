@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Album | The Beatles</title>
+  <link rel="stylesheet" href="music.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="main">
+    <!-- top bar -->
+    <div class="top_bar">
+      <a href="index.html"><button><i class='bx bx-arrow-back'></i></button></a>
+      
+      <div class="options">
+        <button><i class='bx bx-music'></i></button>
+        <button><i class='bx bx-volume-low' ></i></button>
+        <button><i class='bx bx-edit-alt' ></i></button>
+      </div>
+      <button onclick="open_p()"><i class='bx bx-menu-alt-left'></i></button>
+    
+    </div>
+    <div class="playing_part">
+      <div class="img">
+        <img src="mt.jpg" alt="img">
+      </div>
+    </div>
+
+    <!-- control part -->
+    <div class="control_part">
+      <div class="song_title">
+        <p>Meet The Beatles!</p>
+        <p>The Beatles</p>
+      </div>
+
+      <div class="control_buttons">
+        <div class="range_slider">
+          <input type="range" min="0" max="100" id="slider" value="0">
+          <p>3:00</p>
+        </div>
+
+        <div class="main_btns">
+          <button id="previous"><i class='bx bx-skip-previous'></i></button>
+          <button id="play_btn"><i class='bx bx-play'></i></button>
+          <button id="previous"><i class='bx bx-skip-next'></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- playlist songs -->
+    <div class="playlist">
+      <div class="p_song">
+        <p id="p_title">it Won't Be Long</p>
+        <p id="p_artist">The Beatles</p>
+        <button><i class='bx bx-play'></i></button>
+      </div>
+
+      <div class="p_song">
+        <p id="p_title">Little Child</p>
+        <p id="p_artist">The Beatles</p>
+        <button><i class='bx bx-play'></i></button>
+      </div>
+
+      <div class="p_song">
+        <p id="p_title">This Boy</p>
+        <p id="p_artist">The Beatles</p>
+        <button><i class='bx bx-play'></i></button>
+      </div>
+
+      <div class="p_song">
+        <p id="p_title">Don't Bother Me</p>
+        <p id="p_artist">The Beatles</p>
+        <button><i class='bx bx-play'></i></button>
+      </div>
+    </div>
+  </div>
+  <script>
+    let playlist = document.querySelector('.playlist');
+
+    function open_p(){
+      playlist.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

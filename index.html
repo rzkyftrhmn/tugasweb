@@ -1,0 +1,362 @@
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="title.jpg">
+  <link rel="stylesheet" href="css/w3.css">
+  <title>The Beatles |</title>
+<body>
+  <div class="w3-container" style="background-image: linear-gradient(to right, rgb(96, 96, 96), rgb(255, 255, 255));">
+    <br>
+    <center>
+    <img src="p.png" alt="" style="width: 33%; height: auto;">
+    </center>
+  </div>
+
+  <div class="w3-bar w3-black">
+      <button class="w3-bar-item w3-button w3-black" onclick="band('home')">Home</button>
+      <button class="w3-bar-item w3-button w3-black" onclick="band('album')">Album</button>
+      <div class="w3-dropdown-hover">
+	        <button class="w3-button">Member</button>
+	      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+		      <button class="w3-bar-item w3-button" onclick="band('john')">John Lennon</button>
+		      <button class="w3-bar-item w3-button" onclick="band('paul')">Paul Cartney</button>
+		      <button class="w3-bar-item w3-button" onclick="band('george')">George Horrison</button>
+		      <button class="w3-bar-item w3-button" onclick="band('ringo')">Ringo Starr</button>
+	      </div>
+    </div>
+      <button class="w3-bar-item w3-button w3-dark-grey" onclick="band('Profile')">Profile</button>
+  </div>
+
+  <div id="home" class="w3-margin-top thebeatles w3-animate-opacity" style="display: none;">
+    <div class="artist-container">
+      <div class="artist-header">
+        <img class="artist-photo" src="thebeatles.jpg" alt="Artist Photo">
+        <h1 style="color: #b0b0b0;"><b>The Beatles</b></h1>
+      </div>
+
+      <div class="artist-info">
+        <h4 style="color: #b0b0b0;">Pemusik Inggris bergendre rock dan pop dibentuk di Liverpool 1960.</h4>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="profile" style="background-image: url('qq.jpg');">
+    <div id="Profile" class="w3-container thebeatles w3-animate-zoom" style="display: none;">
+    <div class="wrapper" style="border-radius: 25px; background-color: rgba(0, 0, 0, 0.575);">
+      <br>
+      <div class="text-box" style="color: rgb(255, 255, 255);">
+        <center>
+         <h1>NAMA  : RIZKY FATUROHMAN</h1>
+         <h1>NIM   : 10123391</h1>
+         <h1>KELAS : IF10</h1>
+       </center>
+      </div>
+      <br>
+    </div>
+    </div>
+  </div>
+
+  <div class="album" style="background-image: linear-gradient(to left, rgb(96, 96, 96), rgb(255, 255, 255));">
+    <div id="album" class="w3-container thebeatles w3-animate-zoom" style="display: none;">
+      <div class="contain">
+        
+        <a href="album.html">
+        <div class="card">
+           <div class="img-holder">
+              <img src="ppm.jpg" alt="">
+           </div>
+           <div class="text">
+              <h2>Please Please Me</h2>
+            <p>The Beatles</p>
+          </div>
+          <div class="play-icon">
+            <div class="circle">
+                <div class="triangel"></div>
+              </div>
+            </div>
+          </div>
+          </a> 
+          
+          <a href="album2.html">
+          <div class="card">
+           <div class="img-holder">
+              <img src="mt.jpg" alt="">
+           </div>
+           <div class="text">
+              <h2>Meet the Beatles!</h2>
+            <p>The Beatles</p>
+          </div>
+          <div class="play-icon">
+            <div class="circle">
+                <div class="triangel"></div>
+              </div>
+            </div>
+          </div>
+          </a>
+
+          <a href="album3.html">
+          <div class="card">
+           <div class="img-holder">
+              <img src="revolver.jpg" alt="">
+           </div>
+           <div class="text">
+              <h2>Revolver</h2>
+            <p>The Beatles</p>
+          </div>
+          <div class="play-icon">
+            <div class="circle">
+                <div class="triangel"></div>
+              </div>
+            </div>
+          </div>
+          </a>
+
+          <a href="album4.html">
+          <div class="card">
+           <div class="img-holder">
+              <img src="help.jpg" alt="">
+           </div>
+           <div class="text">
+              <h2>Help!</h2>
+            <p>The Beatles</p>
+          </div>
+          <div class="play-icon">
+            <div class="circle">
+                <div class="triangel"></div>
+              </div>
+            </div>
+          </div>
+          </a>
+
+          <a href="album5.html">
+          <div class="card">
+           <div class="img-holder">
+              <img src="bfs.jpg" alt="">
+           </div>
+           <div class="text">
+              <h2>Beatles for Sale</h2>
+            <p>The Beatles</p>
+          </div>
+          <div class="play-icon">
+            <div class="circle">
+                <div class="triangel"></div>
+              </div>
+            </div>
+          </div>
+          </a>
+
+        </div>
+      </div>
+  </div>
+
+  <div id="john" class="w3-container thebeatles" style="display:none;background-image: url('gg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+    <div class="wrapper w3-animate-opacity  ">
+      <img class="img" src="john.png" alt="">
+      <div class="text-box">
+        <h2>John Winston Ono Lennon</h2>
+        <h3>(9 Oktober 1940 – 8 Desember 1980)</h3>
+        <br>
+        <p>ia dikenal sebagai penyanyi, pencipta lagu, instrumentalis, penulis, dan aktivis politik yang terkenal di seluruh dunia sebagai pimpinan dari The Beatles. Lennon dan Paul McCartney membentuk partnership pencipta lagu yang paling sukses dan berhasil hingga saat ini. </p><br>
+        <p>Lennon dengan sinismenya dan McCartney dengan optimismenya melengkapi satu sama lain dengan sangat baik. Setelah bubarnya The Beatles pada tahun 1970, ia juga sukses dengan karier solonya. Salah satu hitsnya yang hingga kini masih sangat terkenal adalah Imagine, lagu yang kemudian menjadi salah satu himne perdamaian dunia.</p><br>
+        <p>Lennon juga menunjukkan sifatnya yang pemberontak dan selera humornya yang sinis dalam film-film seperti A Hard Day's Night (1964), dalam buku yang ditulisnya seperti In His Own Write</p>
+      </div>
+      <br>
+    </div>
+  </div>
+
+  <div id="paul" class="w3-container thebeatles" style="display:none; background-image: url('gg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+    <div class="wrapper w3-animate-opacity">
+      <img class="img" src="paul.png" alt="">
+      <div class="text-box">
+        <h2>James Paul McCartney</h2>
+        <h3>(18 Juni 1942)</h3>
+        <br>
+        <p>ia merupakan penyanyi berkebangsaan Inggris. Ia terkenal sebagai salah satu pendiri The Beatles. Bersama John Lennon di dekade 1960-an, ia membentuk partnership pencipta lagu paling sukses. Ia masih aktif bermusik dan sebagai musikus hingga kini,</p><br>
+        <p>pendapatannya adalah salah satu yang tertinggi di Inggris. Setelah The Beatles bubar, McCartney bersama istrinya, Linda McCartney membentuk grup musik Wings yang cukup sukses di medio tahun 1970-an. Setelah Wings bubar, ia bersolo karier hingga sekarang.</p><br>
+        <p>McCartney juga aktif dalam kegiatan pembelaan hak hewan dan vegetarianisme, terutama dalam PETA, bersama istri dan anak-anaknya. Ia juga menulis, seperti dalam buku kumpulan puisi dan liriknya 'Blackbird Singing', dan juga seorang pelukis.</p>
+      </div>
+      <br>
+    </div>
+  </div>
+
+  <div id="george" class="w3-container thebeatles" style="display:none;background-image: url('gg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+    <div class="wrapper w3-animate-opacity">
+      <img class="img" src="george.png" alt="">
+      <div class="text-box">
+        <h2>George Harrison</h2>
+        <h3>(25 February 1943 – 29 November 2001)</h3>
+        <br>
+        <p>Dikenal sebagai Beatle yang Pendiam (Quiet Beatle), George Harrison merupakan seorang penulis lagu yang dibayang-bayangi oleh dua orang musisi besar yang sering kali membuat orang tidak banyak yang memandang bakatnya di dunia musik.</p><br>
+        <p>Album solo perdana George Harrison yang berjudul All Things Must Pass memperlihatkan kemampuannya yang baik dalam mengeksplorasi tema-tema spiritual dengan komposisi melodi yang bervariasi.</p><br>
+        <p>Setelah pada tahun 1982 merilis Gone Troppo, Harrison beristirahat dari dunia musik. Kehidupannya difokuskan kepada kegemaran akan balap mobil dan produksi film. Ia mendirikan perusahaan pembuat film bernama Handmade Films. Beberapa film yang telah dihasilkannya antara lain "Life of Brian" (1979), "Time Bandits" (1981) dan "The Missionary".</p>
+      </div>
+      <br>
+    </div>
+  </div>
+
+  <div id="ringo" class="w3-container thebeatles" style="display:none;background-image: url('gg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+    <div class="wrapper w3-animate-opacity">
+      <img class="img" src="ringo.png" alt="">
+      <div class="text-box">
+        <h2>Sir Richard Starkey</h2>
+        <h3>(7 Juli 1940)</h3>
+        <br>
+        <p>kenal dengan nama panggungnya Ringo Starr, adalah musikus terkenal dari Britania Raya, paling populer sebagai drumer The Beatles. Ia bergabung dengan The Beatles pada tahun 1962.</p><br>
+        <p>Sebagai seorang drumer, Starr dikenal kreatif, dan kontribusinya pada band mendapat pujian dari banyak drumer profresional. Tahun 2011, ia mendapat peringkat kelima dalam polling Rolling Stones untuk 100 drummer terbaik sepanjang masa.</p><br>
+        <p>Ringo Starr (Richard Starkey) pertama kali menjadi terkenal pada awal 1960-an sebagai drummer grup rock legendaris The Beatles, dan hingga hari ini masih menjadi drummer terkaya sepanjang masa.</p>
+      </div>
+      <br>
+    </div>
+  </div>
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background: #bebebe;
+      }
+      
+     .artist-container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color:rgba(0, 0, 0, 0.687);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.413);
+      color: #fff;
+      text-align: center;
+    }
+
+      .img {
+        max-width: 25%;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
+      }
+      .contain{
+        display: grid;
+        place-items: center; /* Center the grid on the page */
+        height: 80vh;
+        grid-template-columns: repeat(5, 1fr); /* Create 3 equal-width columns */
+        gap:1px; /* Add spacing between albums */
+      }
+      .wrapper {
+        margin: 150px auto;
+        width: 75%;
+        background-color:rgba(0, 0, 0, 0.687);
+      }
+      .wrapper p {
+        text-align: justify;
+      }
+      .text-box{
+        color: #c5c5c5;
+        text-align: justify;
+        margin-right:15px;
+        margin-left:15px;
+      }
+      .text-box h2{
+        font-size: 42px;
+      }
+      .text-box p{
+        font-size: 16px;
+      }
+       
+.card {
+  /* border: 1px solid red; */
+  display: flex;
+  color: azure;
+  flex-direction: column;
+  align-items: center;
+  width: 13rem;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  background-color: #303030;
+  position: relative;
+  transition: all 0.4s;
+  cursor: url(),  ;
+  margin: 0 10px
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.3rem;
+}
+
+.text{
+  line-height: 1;
+  margin-top: 1rem;
+}
+
+.card h2{
+  font-size: 1.2rem;
+}
+
+.card p{
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: gray;
+  font-weight: 400;
+}
+
+.play-icon{
+position: absolute;
+top: 45%;
+right: 10%;
+transform: translateY(10px);
+transition: all 0.4s;
+opacity: 0;
+}
+
+.card:hover .play-icon{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:hover{
+  background-color: rgb(0, 54, 0);
+}
+
+.circle{
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgb(50, 233, 50);
+  border-radius: 50%;
+  transform: scale(0.95);
+  display: grid;
+  place-items: center;
+}
+
+.triangel{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 18px solid black;
+  transform: rotate(90deg);
+  margin-left: 0.2rem;
+}
+
+.play-icon:hover .circle {
+  transform: scale(1);
+  cursor: auto;
+}
+    </style>
+
+<script>
+function band(music) {
+ var i;
+ var x = document.getElementsByClassName("thebeatles");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+ }
+ document.getElementById(music).style.display = "block";
+}
+</script>
+</body>
+</html>
